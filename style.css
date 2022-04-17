@@ -1,0 +1,265 @@
+body {
+	margin: 0;
+	font-family: arial;
+}
+
+/*==========================*/
+/*---- Common Css Start ----*/
+/*==========================*/
+
+.w-50 {
+	width: 50%;
+	box-sizing: border-box;
+	float: left;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.line {
+	border-top: 1px solid #c2c4c9;
+	margin: 18px 0 28px;
+}
+
+/*==========================*/
+/*----- Common Css End -----*/
+/*==========================*/
+
+
+
+
+
+
+/*============================*/
+/*-Main Area First w-50 Start-*/
+/*============================*/
+
+.main-area .img-and-help-area {
+	padding-top: 45px;
+	margin-left: -10px;
+}
+
+.main-area {
+	overflow: hidden;
+	background: #f0f2f5;
+	box-sizing: border-box;
+	padding: 140px 0 200px;
+}
+
+.main-area .facebook-img img{
+	width: 304px;
+}
+
+.main-area .facebook-helps {
+	margin-left: 27px;
+}
+
+.main-area .facebook-helps h3 {
+	font-weight: normal;
+	color: #1c1e21;
+	font-size: 27px;
+	margin: -10px 0;
+}
+
+/*============================*/
+/*--Main Area First w-50 End--*/
+/*============================*/
+
+
+
+
+
+/*===============================*/
+/*--Main Area Second w-50 Start--*/
+/*===============================*/
+
+.main-area .login-area  {
+	width: 80%;
+	padding-left: 80px;
+}
+
+.main-area .login-form {
+	background: #ffffff;
+	padding: 17px;
+	padding-bottom: 24px;
+	box-sizing: border-box;
+	border-radius: 6px;
+	text-align: center;
+}
+
+.main-area .login-form input {
+	display: block;
+	border-radius: 6px;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.main-area .login-form input[type="text"], 
+.main-area .login-form input[type="password"] {
+	border: 1px solid #d3d4d5;
+	margin-bottom: 12px;
+	padding: 18px;
+}
+
+.main-area .login-form input[type="submit"] {
+	padding: 13px;
+	margin-bottom: 18px;
+	margin-top: 10px;
+	border: none;
+	font-size: 20px;
+	color: #ffffff;
+	background: #1877f2;
+	font-weight: bold;
+	font-family: arial;
+}
+
+.main-area .login-form input[type="submit"]:hover {
+	background: #166fe5;
+}
+
+.main-area .login-form input[type="submit"]:focus {
+	border: 2px solid #74b9ff;
+}
+
+::placeholder {
+	color: #aeb0b2;
+	font-size: 18px;
+}
+
+.main-area .login-form input[type="text"]:focus, 
+.main-area .login-form input[type="password"]:focus{
+	outline: none;
+	border: 1px solid #1877f2;
+}
+
+.main-area .login-form .forgot-link {
+	text-decoration: none;
+	color: #1877f2;
+	font-size: 14px;
+}
+
+.main-area .login-form .forgot-link:hover {
+	text-decoration: underline;
+}
+
+.main-area .login-form .create-acc-link {
+	background: #42b72a;
+	display: inline-block;
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 17px;
+	border-radius: 6px;
+	text-decoration: none;
+	padding: 16px;
+	
+}
+
+.main-area .login-form .create-acc-link:hover {
+	background: #36a420;
+}
+
+.main-area .login-form .create-acc-link:focus {
+	background: #36a420;
+	border: 2px solid #74b9ff;
+}
+
+
+.main-area .create-page {
+	text-align: center;
+	margin-top: 30px;
+	font-size: 14px;
+	display: block;
+}
+
+.main-area .create-page p a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #1e2023;
+}
+
+.main-area .create-page p a:hover {
+	text-decoration: underline;
+}
+/*===============================*/
+/*---Main Area Second w-50 End---*/
+/*===============================*/
+
+
+
+
+/*===============================*/
+/*     Fotter Area Css Start     */
+/*===============================*/
+
+
+.footer-area ul {
+	padding: 0;
+	margin: 0px;
+}
+
+.footer-area .language{	overflow: hidden;
+	color: #838383;
+	font-weight: normal;
+	font-size: 12px;
+	margin: 28px 0 -8px;
+}
+
+
+.footer-area li {
+	float: left;
+	list-style-type: none;
+	padding-right: 22px;
+}
+
+.footer-area .coustom-links li{
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+
+.footer-area .coustom-links {
+	margin: -20px 0 10px;
+	overflow: hidden;
+}
+
+.footer-area a{
+	color: #838383;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.footer-area a:hover {
+	text-decoration: underline;
+}
+
+.footer-area .language .plus-icon {
+	background: #f5f6f7;
+	padding: 0px 8px;
+	border-radius: 5px;
+	border: 1px solid #d3d4d5;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.footer-area .language .plus-icon:hover {
+	background: #ebedf0;
+}
+
+.footer-area .language .plus-icon:focus {
+	border: 2px solid #74b9ff;
+}
+
+.copy-right {
+	margin-top: 20px;
+	font-size: 12px;
+	color: #838383;
+}
+/*===============================*/
+/*      Fotter Area Css End      */
+/*===============================*/
+

@@ -1,0 +1,109 @@
+/*===========================*/
+/*I Pad width:810px Css Start*/
+/*===========================*/
+@media only screen and (max-width:810px) {
+	.container {
+		margin: auto;
+		width: 95%;
+		
+	}
+	
+	.main-area .login-area {
+		width: 100%;
+		padding-left: 20px;
+		text-align: center;
+		box-sizing: border-box;
+	}
+	
+	.main-area .facebook-img img{
+		width: 250px;
+	}
+	
+	.main-area .facebook-helps h3 {
+		font-size: 20px;
+		
+	}
+	
+	.main-area .login-form {
+		width: 90%;
+	}
+	
+	.main-area .create-page {
+		font-size: 12px;
+		padding-right: 28px;
+	}
+	
+	.footer-area li {
+		padding-right: 8px;
+	}
+}
+/*===========================*/
+/*I Pad width:810px Css End  */
+/*===========================*/
+
+
+
+
+/*=============================*/
+/*Mobaile width:428px Css Start*/
+/*=============================*/
+@media only screen and (width:428px) {
+	.w-50 {
+		float: none;
+		width: 100%;
+	}
+	
+	.main-area .login-form {
+		width: 100%;
+	}
+	
+	.main-area .login-area {
+		padding-left: 0;
+	}
+	
+	.container {
+		margin: auto;
+		width: 90%;
+	}
+		
+	.main-area .create-page	{
+		padding: 0;
+	}
+	
+	.main-area {
+		padding: 0px 0 79px;
+	}
+	
+	.main-area .img-and-help-area {
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	
+	.footer-area .language {
+		font-size: 10px;
+	}
+	
+	.footer-area .language a {
+		font-size: 8px;
+		padding-bottom: 8px;
+		display: inline-block;
+	}
+	
+	.footer-area .language .plus-icon {
+		padding: 0px 5px;
+		font-size: 14px;
+	}
+	
+	.footer-area .coustom-links a {
+		font-size: 9px;
+	}
+	
+	.copy-right {
+		font-size: 10px;
+	}
+	
+}
+/*=============================*/
+/*Mobaile width:428px Css End  */
+/*=============================*/
+
